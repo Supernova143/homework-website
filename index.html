@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Problems</title>
+    <!--Using katex for latex display-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="problems">
+    <!-- Type problem containers here: -->
+    <div class="problem-container">
+        <p>1. <span id="problem1"></span></p>
+        <input type="text" id="answer1" placeholder="Enter your answer">
+    </div>
+    <div class="problem-container">
+        <p>2. <span id="problem2"></span></p>
+        <input type="text" id="answer2" placeholder="Enter your answer">
+    </div>
+    <div class="problem-container">
+        <p>3. <span id="problem3"></span></p>
+        <input type="text" id="answer3" placeholder="Enter your answer">
+    </div>
+    <div class="problem-container">
+        <p>4. <span id="problem4"></span></p>
+        <input type="text" id="answer4" placeholder="Enter your answer">
+    </div>
+    <div class="problem-container">
+        <p>5. <span id="problem5"></span></p>
+        <input type="text" id="answer5" placeholder="Enter your answer">
+    </div>
+    <div class="problem-container">
+        <p>6. <span id="problem6"></span></p>
+        <input type="text" id="answer6" placeholder="Enter your answer">
+    </div>
+    <div class="problem-container">
+        <p>7. <span id="problem7"></span></p>
+        <input type="text" id="answer7" placeholder="Enter your answer">
+    </div>
+    <div class="problem-container">
+        <p>8. <span id="problem8"></span></p>
+        <input type="text" id="answer8" placeholder="Enter your answer">
+    </div>
+    <div class="problem-container">
+        <p>9. <span id="problem9"></span></p>
+        <input type="text" id="answer9" placeholder="Enter your answer">
+    </div>
+    <div class="problem-container">
+        <p>10. <span id="problem10"></span></p>
+        <input type="text" id="answer10" placeholder="Enter your answer">
+    </div>
+</div>
+
+<!--fix checkAnswers() reference error here-->
+<button onclick="checkAnswers()">Check Answers</button>
+<div id="results"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
+<script src="main.js" defer></script>
+
+</body>
+</html>

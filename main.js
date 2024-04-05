@@ -1,29 +1,29 @@
 try {    
     document.addEventListener('DOMContentLoaded', (event) => {
         const problems = [
-            '\\frac{(23^2 \\cdot 37^3)}{23^2}',
-            '\\frac{54^4}{54^2 \\cdot 54^2}',
-            '\\frac{(48^3 \\cdot 63^2)}{48^5}',
-            '\\frac{25^{-3} \\cdot 25^2}{25^{-1}}',
-            '\\frac{(31^2 \\cdot 36^3)}{31^5}',
-            '\\frac{75^4}{75^2 \\cdot 75^3}',
-            '\\frac{(64^2 \\cdot 82^4)}{64^3}',
-            '\\frac{89^{-2} \\cdot 89^4}{89}',
-            '\\frac{(91^2 \\cdot 96^2)}{91^3}',
-            '\\frac{10^6}{10^2 \\cdot 10^{-1}}'
+            '3x^2y^3 \\times 2xy',
+            '4xy^2 \\times 5x^2y',
+            '2x^3y \\times 3xy^2',
+            '5x^2y^3 \\times xy^2',
+            '7x^2 \\times 3xy',
+            '\\frac{2x^3}{x}',
+            '\\frac{4xy^2}{y}',
+            '\\frac{3x^2y^3}{x^2}',
+            '\\frac{6x^3y^2}{3x}',
+            '\\frac{5xy^3}{2y^2}'
         ];
 
         const answerKey = [
-            '37^3',
-            '1',
-            '63^2/48^2',
-            '1',
-            '36^3/31^3',
-            '1/75',
-            '82^4/64',
-            '89',
-            '96^2/91',
-            '10^5'
+            '6x^3y^4',
+            '20x^3y^3',
+            '6x^4y^3',
+            '5x^3y^5',
+            '21x^3y',
+            '2x^2',
+            '4xy',
+            '3xy^3',
+            '2x^2y^2',
+            '5xy/2'
         ];
 
         function renderProblems() {

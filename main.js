@@ -1,29 +1,29 @@
 try {    
     document.addEventListener('DOMContentLoaded', (event) => {
         const problems = [
-            '2x + 3x - 5 = 4x + 2x + 7',
-            '4y - 2y + 5 = 3y + y - 3',
-            'x + 2x - 4 = 3x - x + 2 - 8',
-            '3z + z - 2z = 2z - 2z + 3z + 5',
-            '2y + 4y - 3y = y - y + 2y + 12',
-            'z + 3z - z = 4z + 2z + z - 16',
-            '5x - 2x + 3x = 2x + 3x - 4x + 5',
-            '2x + x - 2x = 3x - 2x + x + 4',
-            'x - 5x = 2x - 12',
-            '4y + 3y = 16 - y + 8'
+            '\\frac{2x + 3}{5} = \\frac{4}{7}',
+            '\\frac{4}{y + 2} = \\frac{6}{9}',
+            '\\frac{3z - 1}{7} = \\frac{4}{14}',
+            '\\frac{5x - 2}{8} = \\frac{9}{12}',
+            '\\frac{3}{y - 1} = \\frac{7}{10}',
+            '\\frac{6}{z + 3} = \\frac{3}{4}',
+            '\\frac{7x + 4}{11} = \\frac{8}{9}',
+            '\\frac{5}{y - 2} = \\frac{11}{15}',
+            '\\frac{9z - 5}{13} = \\frac{5}{8}',
+            '\\frac{10 - 2x}{x + 3} = \\frac{12}{15}'
         ];
 
         const answerKey = [
-            '-12',
-            '4',
-            '-2',
-            '-5',
-            '12',
+            '-1/14',
             '4',
             '1',
-            '-4',
-            '2',
-            '3'
+            '8/5',
+            '37/7',
+            '5',
+            '52/63',
+            '97/11',
+            '35/24',
+            '19/7'
         ];
 
         function renderProblems() {
